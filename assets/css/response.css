@@ -61,4 +61,124 @@
     .services__info {
         margin-left: 30px;
     }
+    .team__boot_item,
+    .team__item{
+        height: 200px;
+    }
+    .tempalte {
+        padding: 110px 0;
+    }
+    .pricing__item_par{
+        padding-top: 30px;
+    }
+    .pricing__item_title{
+        padding-bottom: 30px;
+    }
+    .pricing__item_par_cont{
+        margin: 0;
+    }
+    .footer{
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .about__cont_item:nth-child(3),
+    .about__cont_item:nth-child(4),
+    .dolor__cont_image,
+    .pricing__item:nth-child(3),
+    .pricing__item:nth-child(4){
+        margin-top: 20px;
+    }
+    .lorem__cont{
+        margin: 0;
+        justify-content: start;
+    }
+    .pricing__item{
+        width: calc(50% - 15px);
+    }
+    .pricing__item_par_cont{
+        line-height: 1.5;
+    }
+    .sections__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lorem__cont .sections__info_par{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px){
+    .about__cont_item:nth-child(2){
+        margin-top: 20px;
+    }
+    .alecto__inside_title{
+        width: 70%;
+        text-align: center;
+    }
+    .about__cont{
+        padding-top: 20px;
+        margin: 0;
+    }
+    .home__subtitle{
+        margin: 20px 0 30px 0;
+    }
+    .team__boot_item, 
+    .team__item{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .alecto__inside_title{
+        margin: 20px 0;
+    }
+    .panel {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .tempalte__title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .home__title{
+        text-align: center;
+    }
+    .pricing__item{
+        width: 100%;
+    }
+    .pricing__item:nth-child(2){
+        margin-top: 20px;
+    }
+    section{
+        padding: 50px 0;
+    }
+}
+@media only screen and (max-width: 520px){
+    .home__title, 
+    .title__head, 
+    .sections__info_title, 
+    .tempalte__title {
+        font-size: 28px;
+    }
+    .home__subtitle {
+        font-size: 16px;
+    }
+    .alecto__inside_title{
+        font-size: 20px;
+    }
+    .title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .services__info {
+        margin-left: 20px;
+    }
+    .sections__info_par{
+        margin: 20px 0;
+        line-height: 1.5;
+    }
 }

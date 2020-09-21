@@ -70,6 +70,23 @@ header
 .header__nav_icon{
     font-size: 20px;
 }
+.navbar__nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar > .navbar__but{
+    border: none !important;
+    outline: none;
+}
+.navbar-response_icon{
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin-top: 3px;
+}
+.navbar-response_icon:first-child{
+    margin: 0;
+}
 
 /* 
 home 

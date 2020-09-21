@@ -181,4 +181,10 @@
         margin: 20px 0;
         line-height: 1.5;
     }
+    .services__cont {
+        margin: 100px 0 0 0;
+    }
+    .services__par {
+        text-align: center;
+    }
 }
